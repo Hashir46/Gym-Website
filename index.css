@@ -1,0 +1,597 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  height: 100vh;
+  width: 100%;
+}
+
+#logo{
+ display: flex;
+  
+}
+#logo img{
+  width: 50px;
+  height: 50px;
+  border-radius: 32px;
+  margin:12px 13px;
+}
+#nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #111;
+}
+#nav i{
+  color: goldenrod;
+  display: none;
+}
+#nav ul {
+  display: flex;
+  flex-direction: row;
+  
+}
+#nav ul li{
+  list-style: none;
+}
+#nav ul li a{
+  display: block;
+  padding: 5px 14px;
+  font-size: 16px;
+  color: #ccc;
+  font-weight: 700;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+#nav ul li a:hover{
+  color: #111;
+  background-color: goldenrod;
+  border-radius: 15px;
+  
+}
+.ZenithFit{
+  color: goldenrod;
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+#item-6{
+  color: #111;
+  font-weight: 600;
+  background-color: goldenrod;
+  border-radius: 15px;
+  display: block;
+  padding: 5px 20px;
+  font-size: 16px;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+#home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+background-image: url('/img/fitness_img5.png');
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.9;
+height: 100%;
+object-fit: cover;
+}
+.pr{
+ 
+  padding: 20px 52px;
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+#slogan{
+  padding: 20px;
+  border-radius: 30px;
+  font-size: 3.5rem;
+  color: goldenrod;
+  /* background: linear-gradient(-90deg, #f4c542, #2a3439); */
+  background-color: #111;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  font-weight: 900;
+  
+}
+
+.slogan-2{
+  margin: 20px;
+  color: floralwhite;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
+#Offers{
+  background-color: #111;
+}
+.free-trail{
+  color: #111;
+  font-weight: 700;
+  padding: 10px;
+  background-color: goldenrod;
+  border-radius: 18px;
+  font-family: sans-serif;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 15px goldenrod;
+  font-size: 20px;
+}
+.free-trail:hover{
+  /* transform: translateY(9px); */
+  transform: scale(1.1);
+  box-shadow: 0 0px 22px goldenrod;
+}
+.offer-training{
+  font-size: 3.5rem;
+  font-family: sans-serif;
+  padding: 12px;
+  text-align: center;
+  color: white;
+}
+#train-img{
+ 
+  display: flex;
+ justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+
+#train-img .trainings-img img{
+  display: block;
+  height: 90%;
+  opacity: 0.9;
+  margin: auto;
+  border-radius: 20px;
+}
+.imgs{
+  width: 225px;
+}
+.imgs:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  box-shadow: 0px 0px 25px goldenrod;
+}
+.classess{
+  background-color: goldenrod;
+  margin-top: 18px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+.classess:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 25px goldenrod;
+}
+
+#grp-cls{
+  /* height: 100vh; */
+  height: auto;
+  min-height:100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111;
+  flex-wrap: wrap;
+}
+#grp-cls-two{
+  /* height: 100vh; */
+  height: auto;
+  min-height:100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111;
+  flex-wrap: wrap;
+}
+#grp-cls-four{
+  /* height: 100vh; */
+  height: auto;
+  min-height:100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111;
+  flex-wrap: wrap;
+}
+.grp-cls-text{
+  font-size: 22px;
+  font-weight: 600;
+  background-color: goldenrod;
+  border-radius: 20px;
+  padding: 5px;
+
+}
+.grp-cls-text:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 25px goldenrod;
+  cursor: pointer;
+}
+.grp-cls-text2{
+  text-align: center;
+  width: 91%;
+  font-size: 38px;
+  color: white;
+}
+.grp-cls-text3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.grp-cls-img{
+  height: 90vh;
+
+ display: flex;
+align-items: center;
+ justify-content: center;
+ width: 50%;
+border-radius: 10px;
+}
+#cls{
+
+  flex-direction: column;
+  gap: 15px;
+}
+.grp-img{
+  margin-top: 20px;
+  height: 75vh;
+  width: 90%;
+  border-radius:15px ;
+}
+.crt-text1 i{
+  /* color: darkgreen; */
+  padding-right: 5px;
+  font-size: 25px;
+  color: white;
+}
+.crt-text1{
+  font-size: 25px;
+  display: flex;
+align-items: center;
+ justify-content: center;
+ color: white;
+}
+#membership{
+  background-color: #111;
+
+    height: auto;
+    width: 100%;
+  
+}
+.meme{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.memship-text{
+  margin-top: 10px;
+  background-color: goldenrod;
+  margin-bottom: 20px;
+  font-size: 25px;
+  
+  border-radius: 26px;
+  padding: 7px;
+  font-weight: 600;
+ 
+}
+.memship-text:hover{
+background-color:linear-gradient(45deg gold,orange);
+cursor: pointer;
+transform: scale(1.1);
+transition: opacity 0.3s ease;
+box-shadow: 0 0 20px goldenrod;
+}
+.mem-text{
+  font-size: 3.5rem;
+  font-family: sans-serif;
+  /* color: white; */
+  display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: white;
+}
+#parent-subs{
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  align-items: center;
+}
+#parent-subs2{
+  width: 100%;
+  min-height: 120vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+  align-items: center;
+}
+#subscription{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid black;
+  min-width: 300px;
+  height: 80vh;
+  border-radius: 24px;
+  background-color: white;
+  flex-wrap: wrap;
+}
+.month{
+  font-size: 2rem;
+  /* margin: 20px; */
+  font-family: sans-serif;
+  height: 60px;
+}
+.six-month{
+  font-size: 2rem;
+  /* margin: 20px; */
+  font-family: sans-serif;
+  text-align: center;
+  /* width: 50%;
+  height: 71px; */
+}
+.one-year{
+  font-size: 2rem;
+  /* margin: 20px; */
+  font-family: sans-serif;
+  text-align: center;
+  /* width: 58%;
+  height: 69px; */
+}
+#subscription h3{
+  font-size: 2rem;
+}
+.subs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+  gap: 10px;
+}
+.subs , .subs1 .subs2 .subs3 i{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 25px;
+  margin-top: 12px;
+}
+.subs-text{
+  margin-top: 17px;
+  font-size: 23px;
+  /* color: white; */
+}
+.subs-freetrail{
+  color: #111;
+  font-weight: 700;
+  padding: 10px;
+  background-color: goldenrod;
+  border-radius: 18px;
+  font-family: sans-serif;
+  cursor: pointer;
+  background-color:linear-gradient(45deg gold,orange);
+
+
+transition: opacity 0.3s ease;
+box-shadow: 0 0 20px goldenrod;
+
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#reviews{
+  border: 2px solid black;
+  width: auto;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+.stars{
+
+  flex-direction: column;
+  text-align: center;
+}
+.stars i{
+ 
+  color: goldenrod;
+  box-shadow: 0 0 25px goldenrod;
+}
+
+.review-text{
+  font-size: 16px;
+  font-family: sans-serif;
+  text-align: center;
+  width: 300px;
+}
+.img-2,.img-3{
+  width: 60px;
+}
+#About{
+  /* background-color: #2a3439; */
+  background-color: #111;
+  /* opacity: 0.9; */
+  flex-wrap: wrap;
+}
+#abt{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.About-text{
+  margin-top: 10px;
+  background-color: goldenrod;
+  margin-bottom: 20px;
+  font-size: 25px;
+  border-radius: 26px;
+  padding: 7px;
+  font-weight: 600;
+  /* height: 100vh; */
+  /* width: 100%; */
+}
+.About-text:hover{
+  background-color:linear-gradient(45deg gold,orange);
+cursor: pointer;
+transform: scale(1.1);
+transition: opacity 0.3s ease;
+box-shadow: 0 0 20px goldenrod;
+
+}
+.abt-text-content{
+  font-size: 3.5rem;
+  font-family: sans-serif;
+  color: white;
+
+}
+.content{
+ font-size: 20px;
+ font-family: sans-serif;
+ margin-top: 20px;
+ font-weight: 500;
+ color:white;
+}
+#abt-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: #111;
+}
+#about-section{
+  height: auto;
+  min-height: 100vh;
+ display: flex;
+align-items: center;
+ justify-content: center;
+ width: 80%;
+border-radius: 10px;
+}
+.abt-content{
+  height: 72vh;
+  font-size: 2.5rem;
+  display: flex;
+ align-items: center;
+  justify-content: center;
+  width: 90%;
+ border-radius: 10px; 
+ flex-direction: column;
+ font-weight: 700;
+ color: white;
+}
+
+.name-text{
+ width: 80%;
+ height: 70px;
+ border-radius: 10px;
+}
+input{
+margin-top: 20px;
+font-size: 20px;
+padding-left: 12px;
+border: 3px solid black;
+}
+.about-img{
+ 
+  height: 90vh;
+  display: flex;
+ align-items: center;
+  justify-content: center;
+  width: 60%;
+ border-radius: 10px;
+}
+.abt-img{
+  margin-top: 20px;
+  height: 70vh;
+  width: 90%;
+  border-radius:15px ;
+}
+.submit{
+  width: 100px;
+  height: 55px;
+  border-radius: 20px;
+  margin-top: 12px;
+  font-size: 20px;
+  background-color: goldenrod;
+  cursor: pointer;
+  border: 2px solid black;
+}
+.submit:hover{
+  background-color:linear-gradient(45deg gold,orange);
+cursor: pointer;
+transform: scale(1.1);
+transition: opacity 0.3s ease;
+box-shadow: 0 0 20px goldenrod;
+
+}
+footer{
+  background-color: #111;
+  color: aliceblue;
+}
+
+.footer-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.ZenithFit-logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.footer-text{
+  font-family: sans-serif;
+  color: goldenrod;
+  cursor: pointer;
+}
+.navigate{
+  text-align: center;
+  margin-top: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+.foot-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-size: 19px;
+  font-family: sans-serif;
+  font-weight: 700;
+  margin-top: 20px;
+  cursor: pointer;
+}
